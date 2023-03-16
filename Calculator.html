@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="stil-calc.css">
+<title>Page Title</title>
+
+<meta charset="UTF-8" />
+</head>
+<body>
+   
+    <div class="titlu">
+
+            <h1 id="tit">Calcultor</h1>
+     
+       
+    </div>
+
+
+
+    <div id="boxdarkmode" >      
+        <p id="dk">Darkmode</p>
+
+ 
+   <div id="cerc">
+    <button id="btndark" onclick="darkmode()"> </button>
+ </div>
+</div>
+
+
+        
+ 
+    
+       <!--  <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>-->
+    
+  
+
+
+
+   <div id="ecran">
+    <input  type="text" placeholder="0" id="screen">
+ </div>
+
+
+
+ 
+
+    <div class="centrare">
+        
+        <div class="box">
+          <!--<button id="p1"  onclick="b1()" >1</button>-->  
+
+          <button id="axb" onclick="show('00')" >00</button>
+          <button id="p0"  onclick="show('0')">0</button>
+           <button id="p1" onclick="show('1')">1</button>
+            <button id="p2" onclick="show('2')">2</button>
+            <button id="p3" onclick="show('3')">3</button>
+            <button id="p4" onclick="show('4')">4</button>
+            <button id="p5" onclick="show('5')">5</button>
+            <button id="p6" onclick="show('6')">6</button>
+            <button id="p7" onclick="show('7')">7</button>
+            <button id="p8" onclick="show('8')">8</button>
+            <button id="p9" onclick="show('9')">9</button>
+
+            <button id="adunare" onclick="show('+')">+</button>
+            <button id="scadere" onclick="show('-')">-</button>
+            <button id="inmultire" onclick="show('*')">&times;</button>
+            <button id="impartire"  onclick="show('/')">&divide;</button>
+            <button id="clear" onclick="allclear()">C</button>
+
+
+            <button id="punct" onclick="show('.')" >.</button>
+           
+            
+            <button id="del" onclick="clearrr()">DEL</button>
+
+
+            <button id="egal" onclick="calc()">=</button>
+        </div>
+    </div>
+
+
+
+
+
+
+	
+    <script src='script1.js'>  </script>
+	</body>
+</html>
